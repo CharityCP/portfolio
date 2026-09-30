@@ -1,12 +1,12 @@
 function Header() {
-  return <h1>Ash Ketchum</h1>
+  return <h1>Charity Perkins</h1>
 }
 
 function App() {
   return (
     <div>
       <Header />
-      <p>Pokémon trainer from Pallet Town.</p>
+      <p>The Chronicle of Synth Nova</p>
     </div>
   )
 }
