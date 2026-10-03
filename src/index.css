@@ -118,7 +118,7 @@ code {
 .section-title {
   padding: 10px, 16px;
   margin-top: 28px;
-  border-left: 4px solid #58e6dc;
+  
   border-bottom: 1px solid rgba(88, 230, 220, 0.5);
 
   color: #8ff7ef;
@@ -145,7 +145,7 @@ code {
   margin-top: 0;
   margin-bottom: 20px;
   padding-left: 12px;
-  border-left: 2px solid rgba(88, 230, 220, 0.35);
+  
 }
 
 .skills-grid {
