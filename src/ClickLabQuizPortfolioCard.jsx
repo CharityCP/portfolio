@@ -1,10 +1,10 @@
 function ClickLabQuizPortfolioCard() {
     let name = " ClickLab Quiz";
-    let description = "A fun and interactive quiz experience where visitors can test their knowledge and have a great time";
+    let description = "A fun and interactive quiz experience where visitors can test their knowledge and experience in depth exploration of the Synth Nova storyline.";
     let liveUrl = "https://charitycp.github.io/Synth-Click-Lab/";
     let githubUrl = "https://github.com/CharityCP/Synth-Click-Lab";
     return (
-        <article>
+        <article className= "project-card">
             <h3>{name}</h3>
             <p>{description}</p>
             <a href={liveUrl}> Live site</a>

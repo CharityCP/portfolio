@@ -4,7 +4,10 @@ function AskSynthNovaPortfolioCard() {
     let liveUrl = "https://charitycp.github.io/Ask-Synth-Nova/";
     let githubUrl = "https://github.com/CharityCP/Ask-Synth-Nova";
     return (
-        <article>
+        <article className= "project-card">
+            <img src="/synth-nova.jpg" 
+            alt="Synth Nova" 
+            className="project-image" />
             <h3>{name}</h3>
             <p>{description}</p>
             <a href={liveUrl}> Live site</a>
