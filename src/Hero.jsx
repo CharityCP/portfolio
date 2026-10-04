@@ -4,6 +4,10 @@ function Hero() {
             <img src= "/synth-hero.png"
             alt= "Futuristic Cityscape"
             />
+            <div className="hero-text">
+            <h2> Welcome to the Unity Nexus</h2>
+            <p>Where creativity, technology, and storytelling converge.</p>
+            </div>
         </section>
     );
 }
