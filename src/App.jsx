@@ -1,3 +1,5 @@
+
+import Hero from "./Hero";
 import AskSynthNovaPortfolioCard from "./AskSynthNovaPortfolioCard";
 import ClickLabQuizPortfolioCard from "./ClickLabQuizPortfolioCard";
 import Contact from "./Contact";
@@ -14,6 +16,7 @@ function App() {
   return (
     <div className="portfolio">
       <Name />
+      <Hero />
       <JobTitle />
       <AboutMe />
       <Education />
