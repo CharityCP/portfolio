@@ -1,3 +1,5 @@
+import AskSynthNovaPortfolioCard from "./AskSynthNovaPortfolioCard";
+import ClickLabQuizPortfolioCard from "./ClickLabQuizPortfolioCard";
 import Contact from "./Contact";
 import Quote from "./Quote";
 import Footer from "./Footer";
@@ -8,10 +10,6 @@ import Education from "./Education";
 import Skills from "./Skills";
 
 
-
-
-
-
 function App() {
   return (
     <div className="portfolio">
@@ -20,6 +18,8 @@ function App() {
       <AboutMe />
       <Education />
       <Skills />
+      <AskSynthNovaPortfolioCard />
+      <ClickLabQuizPortfolioCard />
       <Contact />
       <Quote />
       <Footer />
