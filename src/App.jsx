@@ -1,3 +1,5 @@
+import Contact from "./Contact";
+import Quote from "./Quote";
 function Name() {
   return <h1>Charity Perkins</h1>
 }
@@ -57,6 +59,7 @@ function Skills() {
   )
 }
 
+
 function Footer() {
   return <p className="footer">&copy; {new Date().getFullYear()} Synth Nova Chronicles</p>
 }
@@ -69,6 +72,8 @@ function App() {
       <AboutMe />
       <Education />
       <Skills />
+      <Contact />
+      <Quote />
       <Footer />
     </div>
   )
