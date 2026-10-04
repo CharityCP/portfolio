@@ -1,16 +1,33 @@
-# React + Vite
+# My Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A React site that shows the projects I built in Level 2.
 
-Currently, two official plugins are available:
+The portfolio will use the visual style of Synth Nova Chronicles and give visitors a way to explore my developement work.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## React Compiler
+## Components
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+| Component | What it shows | Where its values come from |
+| --- | --- | --- |
+| `Name` | my name | text inside the component |
+| `JobTitle` | my professional title | text inside the component |
+| `AboutMe` | information about me and my work | text inside the component |
+| `Education` | my education and certifications | text inside the component |
+| `Skills` | my professional and development skills | an array inside the component |
+| `Contact` | my contact information | an email variable inside the component |
+| `Quote` | my personal quote | text inside the component |
+| `Footer` | copyright and the current year | `new Date().getFullYear()` |
+| `AskSynthNovaCard` | Ask Syth Nova project, description, and two links | variables inside the component |
+|`ClickLabQuizCard`  | Click-Lab Quiz |description, and two links | variables inside the component |
 
-## Expanding the Oxlint configuration
+## What I'm adding next
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+- Project cards for my level 2 work Ask Synth Nova, and Click-Lab quiz
+
+- Links to view each project
+
+- A consistent Synth Nova-inspired design
+
+## Built with
+
+React, Vite, Bun, and Pico CSS.

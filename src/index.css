@@ -185,3 +185,24 @@ code {
   font-size: 0.85rem;
   letter-spacing: 2px;
 }
+.quote-card {
+  margin: 30px 0;
+  padding: 24px;
+  border: 1px solid #58e6dc;
+  border-radius: 8px;
+  background: rgba(88, 230, 220, 0.06);
+  text-align: center;
+}
+.quote-card p {
+  margin: 0 0 16px;
+  font-size: 1.1rem;
+  line-height: 1.7;
+  font-style: italic;
+}
+
+.quote-card cite {
+  display: block;
+  font-style: normal;
+  font-weight: bold;
+  color: #58e6dc;
+}
