@@ -5,7 +5,7 @@ function Hero() {
             alt= "Futuristic Cityscape"
             />
             <div className="hero-text">
-            <h2> Welcome to the Unity Nexus</h2>
+            <h2> Welcome to The Synth Nova Chronicles Universe</h2>
             <p>Where creativity, technology, and storytelling converge.</p>
             </div>
         </section>
