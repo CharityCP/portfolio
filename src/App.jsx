@@ -1,4 +1,7 @@
 
+import { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
+import "@picocss/pico/css/pico.min.css";
 import Hero from "./Hero";
 import AskSynthNovaPortfolioCard from "./AskSynthNovaPortfolioCard";
 import ClickLabQuizPortfolioCard from "./ClickLabQuizPortfolioCard";
