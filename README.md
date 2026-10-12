@@ -31,3 +31,28 @@ The portfolio will use the visual style of Synth Nova Chronicles and give visito
 ## Built with
 
 React, Vite, Bun, and Pico CSS.
+
+## React State — What It Remembers
+
+| Feature | State Variable | What It Remembers |
+|---------|----------------|-------------------|
+| Like Buttons | likes | Number of likes for each project |
+| Show More / Less | showMore | Whether project details are visible |
+| Hero Gallery | currentImage | Which image is displayed |
+| Black & White Filter | isBlackAndWhite | Whether grayscale is active |
+| Sepia Filter | isSepia | Whether sepia is active |
+| Blur Controls | blurAmount | Current image blur level |
+| Fortune Generator | fortuneIndex | Position of the displayed fortune |
+
+## React Events and State Updates
+
+| Feature | Event | What Happens |
+|---------|-------|--------------|
+| Like Buttons | onClick | Increases the selected project's like count |
+| Show More / Less | onClick | Toggles project details |
+| Hero Gallery | onClick | Moves to the next or previous image |
+| Black & White | onClick | Toggles grayscale |
+| Sepia | onClick | Toggles the sepia effect |
+| Blur Controls | onClick | Increases or decreases blur |
+| Reset Filters | onClick | Restores the image's original appearance |
+| Fortune Generator | onClick | Displays the next fortune |
