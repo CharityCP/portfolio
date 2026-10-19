@@ -1,4 +1,5 @@
 import { useState } from "react";
+import PhotoControls from "./PhotoControls.jsx";
 function Hero() {
     const heroImages = [
         "/synth-hero.png",
@@ -41,22 +42,20 @@ function Hero() {
             </div>
 
             <div className="hero-controls">
-            <button onClick={handleNextImage}>
-                Next Image
-            </button>
-
-            <button onClick={handlePreviousImage}>
-                Previous Image
-            </button>
-            <button onClick={() => {
-                setIsBlackAndWhite(previous => !previous);
+              <PhotoControls
+              onNext={handleNextImage}
+              onPrevious={handlePreviousImage}
+              onColor={()=> {
+                setIsBlackAndWhite(false);
                 setIsSepia(false);
-            }}>
-                
+              }}
+              onBlackAndWhite={() =>{
+                setIsBlackAndWhite(true);
+                setIsSepia(false);
+              }}
+              /> 
           {isBlackAndWhite ? "Color" : "Black & White"}
-            </button>
-    
-
+           
       <button
         onClick={() => {
             console.log("Black & White button clicked");
