@@ -54,7 +54,6 @@ function Hero() {
                 setIsSepia(false);
               }}
               /> 
-          {isBlackAndWhite ? "Color" : "Black & White"}
            
       <button
         onClick={() => {

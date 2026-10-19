@@ -7,8 +7,9 @@ The portfolio will use the visual style of Synth Nova Chronicles and give visito
 
 ## Components
 
-| Component | What it shows | Where its values come from |
-| --- | --- | --- |
+| Component | What it shows | Where its values come from | What it remembers | What it receives |
+| --- | --- | --- | --- | --- |
+
 | `Name` | my name | text inside the component |
 | `JobTitle` | my professional title | text inside the component |
 | `AboutMe` | information about me and my work | text inside the component |
@@ -17,8 +18,8 @@ The portfolio will use the visual style of Synth Nova Chronicles and give visito
 | `Contact` | my contact information | an email variable inside the component |
 | `Quote` | my personal quote | text inside the component |
 | `Footer` | copyright and the current year | `new Date().getFullYear()` |
-| `AskSynthNovaCard` | Ask Syth Nova project, description, and two links | variables inside the component |
-|`ClickLabQuizCard`  | Click-Lab Quiz |description, and two links | variables inside the component |
+| ProjectCard | One project's name, description, details, and links | projects.js through App | Its likes and whether details are shown | project |
+| PhotoControls | The hero image control buttons | Hero | None | onNext, onPrevious, onColor, onBlackAndWhite |
 
 ## What I'm adding next
 
