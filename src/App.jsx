@@ -2,9 +2,9 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "@picocss/pico/css/pico.min.css";
+import ProjectCard from "./ProjectCard.jsx";
+import projects from "./projects.js";
 import Hero from "./Hero";
-import AskSynthNovaPortfolioCard from "./AskSynthNovaPortfolioCard";
-import ClickLabQuizPortfolioCard from "./ClickLabQuizPortfolioCard";
 import Contact from "./Contact";
 import Quote from "./Quote";
 import Footer from "./Footer";
@@ -24,8 +24,8 @@ function App() {
       <AboutMe />
       <Education />
       <Skills />
-      <AskSynthNovaPortfolioCard />
-      <ClickLabQuizPortfolioCard />
+      <ProjectCard project={projects[0]}/>
+      <ProjectCard project={projects[1]}/>
       <Contact />
       <Quote />
       <Footer />
