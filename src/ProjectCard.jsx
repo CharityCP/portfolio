@@ -27,7 +27,7 @@ function ProjectCard({ project}) {
             
         
             <a href={project.liveUrl}> Live site</a>
-            <a href={project.repoUrl} >GitHub</a>
+            <a href={project.githubUrl} >GitHub</a>
             <button 
             className= "like-button"
             onClick={handleLike}>
